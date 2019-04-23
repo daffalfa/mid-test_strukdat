@@ -75,6 +75,22 @@ void transversl(list first, int n)
 
 }
 
+int main(){
+	pointer p;
+	List first;
+	int n;
+	cout << "Jumlah Tim	: ";
+	cin >> n;
+	createList(First);
+	for (int i=0; i<n; i++){
+		createElement(p);
+		insertLast(first, p);
+	}
+	update(first);
+	traversal(first, n);
+}
+
+
 
 
 
